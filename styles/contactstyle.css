@@ -1,0 +1,49 @@
+body {
+	height:100vh;
+}
+.header {
+	height: 100vh;
+	width: auto;
+	background-image: url(../images/slide-05.jpg);
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	
+}
+
+.logo {
+	transform:translate(-55%,60%);
+	color: white;
+}
+ul {
+	
+	text-align: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	line-height: 40px;
+}
+li {
+	grid-gap: 10px;
+	background: gray;
+	list-style: none;
+	text-decoration: none;
+	border-left: 1px solid black;
+}
+
+.contact1 {
+	border-right: 1px solid black;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+
+
+
+
+
+li:hover {
+	background: white;
+}

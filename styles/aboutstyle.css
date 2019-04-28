@@ -1,0 +1,72 @@
+
+body {
+	margin: 0;
+}
+
+
+
+
+
+ul {
+	
+	text-align: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	line-height: 40px;
+}
+li {
+	
+	list-style: none;
+	text-decoration: none;
+	color: black;
+	border-left: 1px solid black;
+}
+
+.contact {
+	border-right: 1px solid black;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+
+
+
+li:hover {
+	background: white;
+}
+
+.header {
+	height: 114vh;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	background-image: url(../images/slide-02.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	
+}
+
+h1 {
+	font-family: Permanent Marker;
+	font-size: 48px;
+}
+
+.go {
+	font-family: Permanent Marker;
+	font-size: 48px;
+	text-align: center;
+}
+
+.paragraph {
+	margin-top: 40px;
+	line-height: 40px;
+	font-family: IBM Plex Serif;
+	
+	font-size: 33px;
+	
+}
+
+h1:hover {
+	color: white;
+}

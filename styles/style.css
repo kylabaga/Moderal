@@ -1,0 +1,254 @@
+body {
+	margin: 0;
+}
+.header {
+	height: 113vh;
+	width: auto;
+	background-image: url(../images/slide-01.jpg);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	
+}
+
+
+
+
+ul {
+	
+	text-align: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	line-height: 40px;
+}
+li {
+	
+	list-style: none;
+	text-decoration: none;
+	color: black;
+	border-left: 1px solid black;
+}
+
+.contact {
+	border-right: 1px solid black;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+
+
+
+li:hover {
+	background: white;
+}
+
+.logo {
+	position: center;
+}
+
+
+
+.showcase {
+	height: 100vh;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	background-image: url(../images/slide-02.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: left;
+	
+}
+
+.left {
+	
+}
+
+.women {
+	margin: 30px;
+	height: 35vh;
+	background-image: url(../images/seemorewomen.png);
+	transition: 0.5s   all ease-in-out;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: 1px solid black;
+}
+
+.women:hover{
+	background-image:url(../images/women1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+}
+.men {
+	margin: 30px;
+	height: 35vh;
+	background-image: url(../images/seemoremen.png);
+	transition: 0.5s  all ease-in-out;
+	border: 1px solid black;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.men:hover{
+	background-image: url(../images/men1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+}
+.women1{
+	background: white;
+	opacity: 0.4;
+	line-height: 475px;
+	text-align: center;
+}
+
+.go {
+	text-align: center;
+}
+
+.footer{
+	height: 10vh;
+}
+
+h1 {
+	font-family: Permanent Marker;
+	font-size: 48px;
+}
+
+.go {
+	font-family: Permanent Marker;
+	font-size: 48px;
+}
+
+
+
+
+.paragraph {
+	margin-top: 40px;
+	line-height: 40px;
+	font-family: IBM Plex Serif;
+	
+	font-size: 33px;
+	
+}
+
+
+.showcase1 {
+	height: 135vh;
+	
+}
+
+.box1 {
+	margin: 30px;
+	background-image: url(../images/box1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	border: 2px solid black;
+}
+
+
+
+.box2 {
+	margin: 30px;
+	background-image: url(../images/box2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	border: 2px solid black;
+}
+
+.box3 {
+	margin: 30px;
+	background-image: url(../images/box3.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	border: 2px solid black;
+}
+
+.box4 {
+	margin: 30px;
+	background-image: url(../images/box4.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	border: 2px solid black;
+}
+.box5 {
+	background-image: url(../images/box7.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	margin: 30px;
+	border: 2px solid black;
+}
+.box6 {
+	margin: 30px;
+	background-image: url(../images/box8.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	border: 2px solid black;
+}
+.box7 {
+	margin: 30px;
+	background-image: url(../images/box10.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	border: 2px solid black;
+}
+.box8 {
+	margin: 30px;
+	background-image: url(../images/box11.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	border: 2px solid black;
+}
+
+.womensection{
+	
+	background: gainsboro;
+height: 50vh;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.mensection {
+	
+	
+	height: 50vh;
+	background: gainsboro;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.title {
+	
+	text-align: center;
+	
+}
+
+.title:hover {
+	color: gray;
+}
+.
+.footer {
+	margin: 5px;
+	height: 7vh;
+	background: silver;
+	text-align: center;
+}
+
+h3 {
+	background: silver;s
+	text-align: center;
+}
+
